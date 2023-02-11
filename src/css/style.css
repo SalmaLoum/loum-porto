@@ -197,6 +197,7 @@ footer {
 
 .btn {
   background-color: #448cff !important;
+  align-items: center;
 }
 /*---------------*/
 /* ID Selectors */

@@ -1,6 +1,7 @@
 import React from 'react'
 import Container from 'react-bootstrap/Container'
 import ListGroup from 'react-bootstrap/ListGroup'
+import Button from 'react-bootstrap/Button'
 import Resume from '../../assets/images/Salma_Loum_CV.pdf'
 
 export default function About() {
@@ -10,50 +11,56 @@ export default function About() {
         <pre> {'<Resume /> '} </pre>
       </h2>
       <Container style={{ display: 'flex', justifyContent: 'center' }}>
-        <div className="row">
-          <ListGroup>
-            <h4>SKILLS: </h4>
+        <ListGroup>
+          <h4>SKILLS: </h4>
 
-            <ListGroup.Item action variant="primary">
-              HTML
-            </ListGroup.Item>
-            <ListGroup.Item action variant="primary">
-              CSS
-            </ListGroup.Item>
-            <ListGroup.Item action variant="primary">
-              Javascript
-            </ListGroup.Item>
-            <ListGroup.Item action variant="primary">
-              SQL
-            </ListGroup.Item>
-            <ListGroup.Item action variant="primary">
-              Python, Pandas
-            </ListGroup.Item>
-            <ListGroup.Item action variant="primary">
-              Mongodb, Mongoose
-            </ListGroup.Item>
-            <ListGroup.Item action variant="primary">
-              React
-            </ListGroup.Item>
-            <ListGroup.Item action variant="primary">
-              Markdown
-            </ListGroup.Item>
-            <ListGroup.Item action variant="primary">
-              Git & Github
-            </ListGroup.Item>
-          </ListGroup>
-        </div>
+          <ListGroup.Item action variant="dark">
+            HTML
+          </ListGroup.Item>
+          <ListGroup.Item action variant="dark">
+            CSS
+          </ListGroup.Item>
+          <ListGroup.Item action variant="dark">
+            Javascript
+          </ListGroup.Item>
+          <ListGroup.Item action variant="dark">
+            SQL
+          </ListGroup.Item>
+          <ListGroup.Item action variant="dark">
+            Python, Pandas
+          </ListGroup.Item>
+          <ListGroup.Item action variant="dark">
+            Mongodb, Mongoose
+          </ListGroup.Item>
+          <ListGroup.Item action variant="dark">
+            React
+          </ListGroup.Item>
+          <ListGroup.Item action variant="dark">
+            Markdown
+          </ListGroup.Item>
+          <ListGroup.Item action variant="dark">
+            Git & Github
+          </ListGroup.Item>
+        </ListGroup>
       </Container>
+      <br />
+      <div style={{ display: 'flex', justifyContent: 'center' }}>
+        <Button type="submit" animation="glow" a href={Resume}>
+          Download My Resume
+        </Button>
+      </div>
       <br /> <br />
-      <iframe
-        className="portfolio"
-        src={Resume}
-        style={{
-          width: '100%',
-          height: 'calc(100vh - 20px)',
-          overflow: 'auto',
-        }}
-      ></iframe>
+      <div className="column">
+        <iframe
+          className="portfolio"
+          src={Resume}
+          style={{
+            width: '100%',
+            height: 'calc(100vh - 20px)',
+            overflow: 'auto',
+          }}
+        ></iframe>
+      </div>
     </div>
   )
 }
