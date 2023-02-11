@@ -21,7 +21,7 @@ function NavTabs({ currentPage, handlePageChange }) {
           </a>
           Salma Loum
         </Navbar.Brand>
-        <Container>
+        <Container style={{ display: 'flex', justifyContent: 'center' }}>
           <ul className="nav nav-tabs">
             <li className="nav-item">
               <a

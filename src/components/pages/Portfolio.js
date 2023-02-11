@@ -34,26 +34,6 @@ export default function Blog() {
       <Container style={{ justifyContent: 'center' }}>
         <Carousel activeIndex={index} onSelect={handleSelect} variant="dark">
           <Carousel.Item>
-            <img
-              className="d-block w-100"
-              src={SAK}
-              alt="figures surrounded with flowers changing colors"
-            />
-            <Carousel.Caption>
-              <a href=" https://www.latimes.com/projects/what-to-do-after-a-sexual-assault/">
-                After sexual assault : A guide to your rights and choices
-              </a>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
-            <img className="d-block w-100" src={Headlines} alt="Second image" />
-            <Carousel.Caption>
-              <a href=" https://www.latimes.com/california/story/2022-10-28/fym-puppets-kids-mental-health-news-show-bob-baker-marionette">
-                Head-lines: a mental health news show run by puppets
-              </a>
-            </Carousel.Caption>
-          </Carousel.Item>
-          <Carousel.Item>
             <img className="d-block w-100" src={Kindly} alt="Fifth image" />
             <Carousel.Caption>
               <a href="https://immense-ridge-33507.herokuapp.com/">
@@ -80,6 +60,26 @@ export default function Blog() {
               | {''}
               <a href="https://github.com/SalmaLoum/face-the-day">
                 GitHub repo
+              </a>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img
+              className="d-block w-100"
+              src={SAK}
+              alt="figures surrounded with flowers changing colors"
+            />
+            <Carousel.Caption>
+              <a href=" https://www.latimes.com/projects/what-to-do-after-a-sexual-assault/">
+                After sexual assault : A guide to your rights and choices
+              </a>
+            </Carousel.Caption>
+          </Carousel.Item>
+          <Carousel.Item>
+            <img className="d-block w-100" src={Headlines} alt="Second image" />
+            <Carousel.Caption>
+              <a href=" https://www.latimes.com/california/story/2022-10-28/fym-puppets-kids-mental-health-news-show-bob-baker-marionette">
+                Head-lines: a mental health news show run by puppets
               </a>
             </Carousel.Caption>
           </Carousel.Item>
