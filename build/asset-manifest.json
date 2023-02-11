@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c2cab247.css",
+    "main.js": "/static/js/main.e1f323d5.js",
+    "static/media/Salma_Loum_CV.pdf": "/static/media/Salma_Loum_CV.1bd26dcda2b89def47db.pdf",
+    "static/media/topper-600.gif": "/static/media/topper-600.d0dc6f9740d0233a2f7a.gif",
+    "index.html": "/index.html",
+    "main.c2cab247.css.map": "/static/css/main.c2cab247.css.map",
+    "main.e1f323d5.js.map": "/static/js/main.e1f323d5.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c2cab247.css",
+    "static/js/main.e1f323d5.js"
+  ]
+}
