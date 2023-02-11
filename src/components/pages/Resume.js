@@ -45,10 +45,9 @@ export default function About() {
         </div>
       </Container>
       <br /> <br />
-      <div className="column">
-        <a href={Resume}> </a>
+      
 
-        {/* <iframe
+        <iframe
 className="portfolio"
 src=
 style={{
@@ -56,7 +55,7 @@ style={{
   height: 'calc(100vh - 20px)',
   overflow: 'auto',
 }}
-></iframe> */}
+></iframe>
       </div>
     </div>
   )
