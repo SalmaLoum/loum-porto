@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.b1221318.css",
-    "main.js": "/static/js/main.b2daab76.js",
-    "static/media/Salma-Loum-2.jpg": "/static/media/Salma-Loum-2.618c9a36c23f0c62c9db.jpg",
-    "static/media/headlines.png": "/static/media/headlines.e0490dbc98e5e997595b.png",
-    "static/media/Salma_Loum_CV.pdf": "/static/media/Salma_Loum_CV.1bd26dcda2b89def47db.pdf",
-    "static/media/facetheday.png": "/static/media/facetheday.e4669d7f69f475a9e758.png",
-    "static/media/kindly.png": "/static/media/kindly.945e2ec10c67b8f1aad6.png",
-    "static/media/topper-600.gif": "/static/media/topper-600.d0dc6f9740d0233a2f7a.gif",
-    "static/media/voting.png": "/static/media/voting.43e706ebb7d9b8786635.png",
-    "static/media/linkedin.png": "/static/media/linkedin.ee7155b3b118dbf6a012.png",
-    "static/media/twitter.png": "/static/media/twitter.fdea79b250c0f44967bb.png",
-    "static/media/github.png": "/static/media/github.a4f3115e9e38944abd4c.png",
-    "static/media/website.png": "/static/media/website.9316e4448ece38c96326.png",
-    "static/media/water.png": "/static/media/water.3079e6e41d5bfb0164ae.png",
-    "static/media/blog.png": "/static/media/blog.0a5aec808bdb4ebc6ba3.png",
-    "static/media/button-1.png": "/static/media/button-1.b99ddd450d4e90af072c.png",
-    "index.html": "/index.html",
-    "main.b1221318.css.map": "/static/css/main.b1221318.css.map",
-    "main.b2daab76.js.map": "/static/js/main.b2daab76.js.map"
+    "main.css": "/loum-porto/static/css/main.b1221318.css",
+    "main.js": "/loum-porto/static/js/main.b8d9f9a2.js",
+    "static/media/Salma-Loum-2.jpg": "/loum-porto/static/media/Salma-Loum-2.618c9a36c23f0c62c9db.jpg",
+    "static/media/headlines.png": "/loum-porto/static/media/headlines.e0490dbc98e5e997595b.png",
+    "static/media/Salma_Loum_CV.pdf": "/loum-porto/static/media/Salma_Loum_CV.1bd26dcda2b89def47db.pdf",
+    "static/media/facetheday.png": "/loum-porto/static/media/facetheday.e4669d7f69f475a9e758.png",
+    "static/media/kindly.png": "/loum-porto/static/media/kindly.945e2ec10c67b8f1aad6.png",
+    "static/media/topper-600.gif": "/loum-porto/static/media/topper-600.d0dc6f9740d0233a2f7a.gif",
+    "static/media/voting.png": "/loum-porto/static/media/voting.43e706ebb7d9b8786635.png",
+    "static/media/linkedin.png": "/loum-porto/static/media/linkedin.ee7155b3b118dbf6a012.png",
+    "static/media/twitter.png": "/loum-porto/static/media/twitter.fdea79b250c0f44967bb.png",
+    "static/media/github.png": "/loum-porto/static/media/github.a4f3115e9e38944abd4c.png",
+    "static/media/website.png": "/loum-porto/static/media/website.9316e4448ece38c96326.png",
+    "static/media/water.png": "/loum-porto/static/media/water.3079e6e41d5bfb0164ae.png",
+    "static/media/blog.png": "/loum-porto/static/media/blog.0a5aec808bdb4ebc6ba3.png",
+    "static/media/button-1.png": "/loum-porto/static/media/button-1.b99ddd450d4e90af072c.png",
+    "index.html": "/loum-porto/index.html",
+    "main.b1221318.css.map": "/loum-porto/static/css/main.b1221318.css.map",
+    "main.b8d9f9a2.js.map": "/loum-porto/static/js/main.b8d9f9a2.js.map"
   },
   "entrypoints": [
     "static/css/main.b1221318.css",
-    "static/js/main.b2daab76.js"
+    "static/js/main.b8d9f9a2.js"
   ]
 }
