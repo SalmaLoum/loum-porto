@@ -45,18 +45,15 @@ export default function About() {
         </div>
       </Container>
       <br /> <br />
-      
-
-        <iframe
-className="portfolio"
-src=
-style={{
-  width: '100%',
-  height: 'calc(100vh - 20px)',
-  overflow: 'auto',
-}}
-></iframe>
-      </div>
+      <iframe
+        className="portfolio"
+        src={Resume}
+        style={{
+          width: '100%',
+          height: 'calc(100vh - 20px)',
+          overflow: 'auto',
+        }}
+      ></iframe>
     </div>
   )
 }
